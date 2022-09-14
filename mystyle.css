@@ -1,0 +1,14 @@
+body{
+    background-color: rgba(0, 255, 162, 0.581);
+}
+
+.t1{background-color: #7b43b076;}
+.t2{background-color: #7b43b076;}
+.t3{background-color: #ffc80076;}
+.t4{background-color: #ffc80076;}
+hr{
+    width: 30%;
+    border: dashed rgba(0, 0, 255, 0.274) 10px;
+    border-bottom: none;
+}
+h1{color: rgb(255, 0, 0);}
