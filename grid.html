@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: green;
+        }
+        @media screen and (max width: 800px)
+        {
+            body{
+                background-color: rgb(255, 0, 0);
+            }
+        }
+        @media screen and (max width: 200px)
+        {
+            body{
+                background-color: yellow;
+            }
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        ul{
+            display: inline-grid;
+            grid-template-columns: auto auto;
+
+        }
+        ul li{
+            list-style: none;
+            margin: 0 23px;
+            padding: 23px 0;
+        }
+        header{
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>home</li>
+                <li>about</li>
+                <li>contact</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, saepe esse tenetur id ullam vel
+            optio adipisci autem culpa cumque inventore fugiat voluptatibus repellat rerum sed, repudiandae illum omnis
+            quam. Nostrum culpa corporis quibusdam.
+    </div>            
+</body>
+</html>
